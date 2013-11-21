@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "A.h"
+#import "B.h"
+#import "C.h"
 
 @interface ViewController ()
 
@@ -17,6 +20,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    C *obj = [[C alloc] init];
+    obj->a = 0xaaaaaaaa;
+    obj->b = 0xbbbbbbbb;
+    obj->c = 0xcccccccc;
+    
+    NSData *objData = [NSData dataWithBytes:(__bridge const void *)(obj) length:malloc_size(obj)];
+    
+    NSLog(@"Object contains %@", objData);
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

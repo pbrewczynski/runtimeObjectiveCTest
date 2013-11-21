@@ -24,6 +24,10 @@
 		197A052B1832380A00FD436D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197A05031832380A00FD436D /* Foundation.framework */; };
 		197A05331832380A00FD436D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 197A05311832380A00FD436D /* InfoPlist.strings */; };
 		197A05361832380A00FD436D /* runtimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A05351832380A00FD436D /* runtimeTestTests.m */; };
+		197A05411832384800FD436D /* Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A05401832384800FD436D /* Example.m */; };
+		197A054418323C2500FD436D /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A054318323C2500FD436D /* A.m */; };
+		197A054718323C4A00FD436D /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A054618323C4A00FD436D /* B.m */; };
+		197A054A18323C8000FD436D /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = 197A054918323C8000FD436D /* C.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,14 @@
 		197A05321832380A00FD436D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		197A05341832380A00FD436D /* runtimeTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = runtimeTestTests.h; sourceTree = "<group>"; };
 		197A05351832380A00FD436D /* runtimeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeTestTests.m; sourceTree = "<group>"; };
+		197A053F1832384800FD436D /* Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		197A05401832384800FD436D /* Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example.m; sourceTree = "<group>"; };
+		197A054218323C2500FD436D /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		197A054318323C2500FD436D /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		197A054518323C4A00FD436D /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		197A054618323C4A00FD436D /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		197A054818323C8000FD436D /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
+		197A054918323C8000FD436D /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +138,14 @@
 				197A051F1832380A00FD436D /* ViewController.h */,
 				197A05201832380A00FD436D /* ViewController.m */,
 				197A05081832380A00FD436D /* Supporting Files */,
+				197A054818323C8000FD436D /* C.h */,
+				197A054918323C8000FD436D /* C.m */,
+				197A054518323C4A00FD436D /* B.h */,
+				197A054618323C4A00FD436D /* B.m */,
+				197A054218323C2500FD436D /* A.h */,
+				197A054318323C2500FD436D /* A.m */,
+				197A053F1832384800FD436D /* Example.h */,
+				197A05401832384800FD436D /* Example.m */,
 			);
 			path = runtimeTest;
 			sourceTree = "<group>";
@@ -277,6 +297,10 @@
 				197A050E1832380A00FD436D /* main.m in Sources */,
 				197A05121832380A00FD436D /* AppDelegate.m in Sources */,
 				197A05211832380A00FD436D /* ViewController.m in Sources */,
+				197A05411832384800FD436D /* Example.m in Sources */,
+				197A054418323C2500FD436D /* A.m in Sources */,
+				197A054718323C4A00FD436D /* B.m in Sources */,
+				197A054A18323C8000FD436D /* C.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
